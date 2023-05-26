@@ -14,5 +14,5 @@ jobs:
 
     steps:
       - name: Ação 1
-        run: python ./App/test.py
+        run: python App/test.py
       
