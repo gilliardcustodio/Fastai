@@ -1,0 +1,18 @@
+name: ola gitAction
+
+on:
+  pull_request:
+    types:
+      - closed
+  pull_request_review:
+    types:
+      - submitted
+
+jobs:
+  meu-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Ação 1
+        run: python ./App/test.py
+      
